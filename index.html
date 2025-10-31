@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minha Biografia</title>
+  <style>
+    :root{ --bg:#ffffff; --accent:#2b6cb0; --text:#222; }
+    body{ font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--text); margin:0; padding:24px; }
+    .container{ max-width:800px; margin:0 auto; }
+    header{ border-bottom:1px solid #ddd; padding-bottom:12px; margin-bottom:18px; }
+    h1{ font-size:20px; margin:0 0 6px 0; }
+    .meta p{ margin:4px 0; }
+    .name{ font-weight:700; }
+    .nickname{ font-style:italic; }
+    .profession{ font-style:italic; color:#444; }
+    main p{ line-height:1.6; }
+    .reflection{ margin-top:12px; font-style:italic; background:#f7fbff; padding:12px; border-left:4px solid var(--accent); }
+    a.cta{ color:var(--accent); text-decoration:underline; }
+    figure{ margin:18px 0; }
+    img.profile{ max-width:100%; height:auto; display:block; border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+    footer{ margin-top:20px; font-size:14px; color:#555; }
+    @media (max-width:480px){ body{ padding:12px } h1{ font-size:18px } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Nome: <span class="name">Guilherme Luiz</span></h1>
+      <div class="meta">
+        <p>sobrenome: <span class="nickname">Silva</span></p>
+        <p>Profissão: <span class="profession">Estudante / Desenvolvedor Web</span></p>
+      </div>
+    </header>
+
+    <main>
+      <section class="biography">
+        <h2> sua Biografia</h2>
+        <p>
+          Olá — eu sou Guilherme, um estudante apaixonado por tecnologia e criação digital. Desde cedo me interessei por como sites e aplicações funcionam, o que me levou a aprender HTML, CSS e JavaScript. Quando não estou codando, gosto de desenhar, ouvir trilhas sonoras e imaginar histórias que possam virar animações.
+        </p>
+        <p>
+          Estudo constantemente para melhorar minhas habilidades e participar de projetos que tenham impacto real na comunidade, como iniciativas de reciclagem e educação. Acredito que a tecnologia pode ser uma ferramenta poderosa para resolver problemas simples do dia a dia.
+        </p>
+
+        <div class="reflection">
+          <strong>Reflexão:</strong> Aprender é um processo contínuo — as pequenas melhorias diárias acumulam-se e transformam nossas ideias em projetos concretos. O importante é continuar curioso e experimentar sem medo do erro.
+        </div>
+
+        <p style="margin-top:12px;">
+          <a class="cta" href="https://www.pagani.com/" target="_blank" rel="noopener noreferrer">https://www.pagani.com/</a>
+        </p>
+      </section>
+      <section class="photo">
+        <h3>Guilherme Luiz</h3>
+        <figure>
+          <!-- Substitua 'foto.jpg' pela foto real do aluno (relativo ao mesmo diretório deste arquivo) -->
+          <img class="profile" src="Rec player.jpg" alt="Guilherme Luiz" title="Guilherme Luiz de lourdes silava" />
+          <figcaption>Legenda: DIA 17/10/2025(Rec-player Recife-pe)</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <p>Contato: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a> tentando criar um html do zero.</p>
+    </footer>
+  </div>
+</body>
+</html>
